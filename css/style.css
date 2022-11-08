@@ -124,7 +124,7 @@ li {
     text-align: center;
 }
 .sec-pad {
-    padding: 142px 0px 150px 0px;
+    padding: 50px 0px;
 }
 
 p {
@@ -189,18 +189,7 @@ h3 a {
     font-family: 'Ek Mukta', sans-serif;
     line-height: 28px;
     color: #838383;
-    margin-bottom: 70px;
-}
-.title p:before {
-    position: absolute;
-    content: '';
-    background: url(../images/home/title-shap.png);
-    background-repeat: no-repeat;
-    width: 72px;
-    height: 8px;
-    left: 50%;
-    margin-left: -25px;
-    bottom: -37px;
+    margin-bottom: 40px;
 }
 .preloader {
     position: fixed;
@@ -525,7 +514,6 @@ body {
 .main-menu .navigation > li {
     position: relative;
     display: inline-block;
-    margin-right: 20px;
     margin-bottom: 0px;
 }
 .main-menu .navigation > li.logo-box {
@@ -545,11 +533,11 @@ body {
 .main-menu .navigation > li > a {
     position: relative;
     display: block;
-    font-size: 16px;
+    font-size: 19px;
     color: #fff;
     line-height: 29px;
     font-weight: 700;
-    padding: 35px 27px 56px 2px;
+    padding: 35px 27px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Ek Mukta', sans-serif;
@@ -767,11 +755,7 @@ body {
 .sticky-header .info-box {
     display: inline-block;
     position: relative;
-    float: right;
-    top: 38px;
-}
-.sticky-header .info-box {
-    top: 25px;
+    margin-left: 15px;
 }
 .main-header .header-lower {
     position: relative;
@@ -1081,7 +1065,7 @@ body {
     color: #777;
 }
 .rooms-section .rooms-title {
-    margin-bottom: 105px;
+    margin-bottom: 70px;
 }
 .rooms-section .content-side p {
     margin-bottom: 30px;
@@ -1276,7 +1260,7 @@ body {
     font-size: 24px;
 }
 .img-gallery .gallery-title {
-    margin-bottom: 106px;
+    margin-bottom: 40px;
 }
 .img-gallery .btn-one {
     margin-top: 40px;
@@ -1500,8 +1484,7 @@ body {
 .footer-area {
     position: relative;
     background: #242424;
-    margin-top: -70px;
-    padding: 148px 0px 30px 0px;
+    padding: 30px 0px;
 }
 .footer-area .footer-title h3 {
     color: #fff;
@@ -1679,7 +1662,7 @@ body {
 .header-style-two .logo-box {
     position: relative;
     display: inline-block;
-    padding: 0px 74px 0px 65px;
+    padding: 0px 74px;
     top: -2px;
 }
 .header-style-two .header-social {
@@ -1718,13 +1701,10 @@ body {
 }
 .header-style-two .main-menu .navigation > li > a {
     color: #222;
-    padding: 38px 44px 34px 2px;
+    padding: 38px 44px;
 }
 .header-style-two .sticky-header .main-menu .navigation > li > a {
     color: #fff;
-}
-.header-style-two .main-menu {
-    left: -21px;
 }
 .header-style-two .main-menu .navigation > li:hover > a,
 .header-style-two .main-menu .navigation > li.current > a,
@@ -1758,7 +1738,7 @@ body {
     color: #c9a76e;
 }
 .header-style-two .sticky-header .main-menu .navigation > li > a {
-    padding: 38px 44px 40px 2px;
+    padding: 38px 44px;
 }
 
 /** banner-style-two **/
@@ -1811,7 +1791,7 @@ body {
 
 .few-words {
     position: relative;
-    padding-bottom: 145px;
+    padding-bottom: 20px;
 }
 .few-words .single-item {
     position: relative;
@@ -1858,7 +1838,7 @@ body {
     margin-right: 7px;
 }
 .few-words .fow-words-title {
-    margin-bottom: 83px;
+    margin-bottom: 20px;
 }
 .few-words .single-item:before {
     position: absolute;
@@ -2313,7 +2293,7 @@ body {
     position: relative;
     background: #242424;
     width: 100%;
-    padding: 100px 0px 100px 0px;
+    padding: 50px 0px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2567,7 +2547,7 @@ body {
 
 .room-details {
     position: relative;
-    padding: 110px 0px 130px 0px;
+    padding: 30px 0px;
 }
 .room-details .sidber-details .img-box {
     position: relative;
@@ -3215,4 +3195,54 @@ p.zanimljivosti {
     outline-color: whitesmoke;
     vertical-align: middle;
     display: grid;
+}
+
+
+/** SAXDEV **/
+
+.header-center {
+    display: flex;
+    align-items: center;
+}
+
+.header-center-sax {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header-sax-logo-container {
+    display: none;
+}
+
+@media only screen and (max-width: 599px){ 
+    .header-center {
+        flex-direction: column;
+    }
+
+    .room-section-sax {
+        width: 90%;
+    }
+
+    .footer-contact-part {
+        justify-content: flex-start !important;
+    }
+
+    .header-sax-logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+        
+}
+
+.figure-position {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-contact-part {
+    display: flex;
+    justify-content: center;
 }
