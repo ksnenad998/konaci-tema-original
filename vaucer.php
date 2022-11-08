@@ -98,89 +98,153 @@
         </div>
     </header>
     <!--end sticky header-->
+    <!-- end header area -->
 
-    <!-- few-words section -->
-    <section class="few-words sec-pad">
+    <!--Page Title-->
+    <section class="page-title centered">
         <div class="container">
-            <div class="fow-words-title centered">
-                <div class="section-title">
-                    <h1>O Ribarskim Konacima</h1>
-                </div>
-                <div class="title">
-                    <p>Ribarski konaci su objekat izgrađen 2017. godine po najsavremenijim svetskim standardima i proširen 2020. Zahvaljujući svojoj lokaciji i strukturi, gostima nudi prijatan boravak u moderno opremljenom i luksuznom smeštaju. Ribarski
-                        Konaci pružaju i mogućnost odabira ishrane po principu polupansiona i punog pansiona. U prilici smo da vam ponudimo i PLAĆANJE PUTEM VAUČERA! </p>
-                </div>
+            <div class="content-box">
+                <div class="title">Rezervacije</div>
             </div>
-            <div class="fow-words-title centered">
-                <div class="section-title">
-                    <h1>Naše usluge</h1>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+    <!-- rooms details -->
+    <section class="sidber-page-container rooms-section room-details bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12 col-xs-12 room-details-content">
+                    <div class="sidber-details">
+                        <div class="img-box">
+                            <figure>
+                                <img src="images/rooms/soba1.jpg" alt="" />
+                            </figure>
+                        </div>
+                        <div class="lower-content">
+                            <div class="room-title">
+                                <h3 style="color: whitesmoke">Sobe</h3>
+                            </div>
+                            <ul class="rating">
+                                <li>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </li>
+                            </ul>
+                            <div class="text">
+                                <p style="color: whitesmoke">
+                                    Sve naše sobe su elegantno opremljene sa ručno rađenim nameštajem i uključuju luksuzno kupatilo sa besplatnim paketom sadržaja, LCD TV sa ravnim ekranom, pribor za pripremu čaja/kafe, ventilator, fen za kosu i najfinije čisto belu posteljinu i peškire.
+                                    <br> Na raspolaganju su Vam jednokrevetne, dvokrevetne, trokrevetne i četvorokrevetne sobe.
+                                </p>
+                                <p>
+
+                                </p>
+                            </div>
+                            <div class="room-catagories">
+                                <div class="catagoris">
+                                    <div class="icon-holder">
+                                        <div class="icon-box">
+                                            <i class="flaticon-technology"></i>
+                                        </div>
+                                        <div class="text">LED TV</div>
+                                    </div>
+                                    <div class="icon-holder">
+                                        <div class="icon-box"><i class="flaticon-air-conditioner"></i></div>
+                                        <div class="text">AC ROOM</div>
+                                    </div>
+
+                                    <div class="icon-holder">
+                                        <div class="icon-box">
+                                            <i class="flaticon-food"></i>
+                                        </div>
+                                        <div class="text">BREAKFAST</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="title">
-                    <p>Ribarski Konaci, biser u Ribarskoj Banji, je smeštaj za ljude sa prefinjenim ukusom a odlikuje se odličnim odnosom kvaliteta i cene. Ribarski Konaci raspolažu kapacitetom od 19 smeštajnih jedinica različitog tipa (ili ukupno 42 osobe).
-                        Sve smeštajne jedinice imaju kupatilo, LCD TV i besplatan Wi-Fi. Gosti mogu uživati u kulinarskim specijalitetima u moderno opremljenom restoranu koji se nalazi u sklopu objekta. U sastavu Ribarskih Konaka nalazi se i biljna apoteka
-                        u kojoj ćete pronaći prirodne proizvode pravljene po tradicionalnim receptima.</p>
-                </div>
-            </div>
-            <div class="fow-words-title centered">
-                <div class="section-title">
-                    <h1>O Ribarskoj Banji</h1>
-                </div>
-                <div class="title">
-                    <p>Svoje ime dobila je po ribarima koji su na njenim izvorima, za Kneza Lazara, pecali pastrmku izuzetnog kvaliteta. Ipak, korišćenje njenih lekovitih svojstva zadire još dublje u prošlost u vreme Rimljana i 4. vek nove ere, o čemu svedoče
-                        arheološki ostaci iz okoline banje. Nastanak kupatila se po legendi vezuje za doba Carice Milice, koja je po nekim izvorima, dolazila u Ribarsku Banju kako bi održavala svoju lepotu. Ni Turci nisu bili ravnodušni na blagotvorna,
-                        prirodna dejstva ove banje pa su stoga u njoj podigli kupatilo - hamam, koji su posećivali radi negovanja tela i duha. </p>
+                <div class="col-md-3 col-sm-6 col-xs-12 room-sidber-content">
+                    <div class="sidber-catagories">
+                        <div class="sidber-title" style="color: whitesmoke">Rezervišite</div>
+                        <div class="form-area">
+                            <div class="form">
+                                <div class="row">
+                                    <form id="reservation-form" name="reservation-form" method="post">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <i class="fa fa-user"></i>
+                                                <input id="name" name="name" type="text" placeholder="Unesite Vaše ime i prezime" required />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <i class="fa fa-phone"></i>
+                                                <input id="phone" name="phone" type="text" placeholder="Unesite Vaš broj telefona" required />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <i class="fa fa-envelope"></i>
+                                                <input id="email" name="email" type="email" placeholder="Unesite Vaš email" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <i class="fa fa-angle-down"></i>
+                                                <select class="custom-select-box" form="reservation-form" name="payment" id="payment">
+                                                </option>
+                                                <option value="vaucer">
+                                                    Vaučer
+                                                </option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <i class="fa fa-angle-down"></i>
+                                                <select class="custom-select-box" form="reservation-form" name="room" id="room">
+                                                <option selected="selected">
+                                                    Odaberite sobu
+                                                </option>
+                                                <option value="Jednokrevetna">
+                                                    Jednokreventa soba
+                                                </option>
+                                                <option value="Dvokrevetna">
+                                                    Dvokrevetna soba
+                                                </option>
+                                                <option value="Trokrevetna">
+                                                    Trokrevetna soba
+                                                </option>
+                                                <option value="Cetvorokrevetna">
+                                                    Četvorokrevetna soba
+                                                </option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button class="btn-one style-one" type="submit">Rezervišite</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
-    <section style="margin-bottom: 20px;" class="img-gallery sec-pad">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xsm-12 center">
-                    <p class="zanimljivosti"> Udaljenost od <br> Kruševca <br> <span class="spanOnama">35km</span></p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 col-xsm-12 center">
-                    <p class="zanimljivosti"> Udaljenost od <br> Niša <br> <span class="spanOnama">72km</span></p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 col-xsm-12 center">
-                    <p class="zanimljivosti"> Udaljenost od <br> Beograda <br> </b> <span class="spanOnama">220km</span></p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 col-xsm-12 center">
-                    <p class="zanimljivosti"> Ribarska Banja <br> se prostire na površini od <br> <span class="spanOnama">105ha</span></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12 gallery-colmun">
-                    <div class="single-item">
-                        <div class="img-holder">
-                            <figure><img src="images/gallery/ribarskabanja1.jpg" alt=""></figure>
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="img-content"><i class="flaticon-maps-and-flags"></i>Ribarska banja</div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 gallery-colmun">
-                    <div class="single-item">
-                        <div class="img-holder">
-                            <figure><img src="images/gallery/ribarskabanja2.jpg" alt=""></figure>
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="img-content"><i class="flaticon-maps-and-flags"></i>Ribarska banja</div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- main footer area -->
     <footer class="footer-area sec-pad">
         <div class="container">
             <div class="row">
@@ -193,8 +257,10 @@
                             <p>Ribarski konaci su objekat izgrađen 2017. godine po najsavremenijim svetskim standardima i proširen 2020. Zahvaljujući svojoj lokaciji i strukturi, gostima nudi prijatan boravak u moderno opremljenom i luksuznom smeštaju.</p>
                         </div>
                         <ul class="footer-social">
-                            <li><a href="https://www.facebook.com/Ribarska-Banja-Ribarski-Konaci-293618971066523/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.instagram.com/_ribarski_konaci_/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/Ribarska-Banja-Ribarski-Konaci-293618971066523/"><i
+                                        class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/_ribarski_konaci_/"><i
+                                        class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -234,8 +300,8 @@
                             <i class="flaticon-home-interface"></i>
                             <div class="text">
                                 <p><a style="color: #c9a76e;" href="https://prirodaleci.com/">
-                                    BILJNE MEŠAVINE
-                                </a> pravljene po tradicionalnoj recepturi<br> prof. Milete Manojlovića.</p>
+                                        BILJNE MEŠAVINE
+                                    </a> pravljene po tradicionalnoj recepturi<br> prof. Milete Manojlovića.</p>
                             </div>
                         </div>
                     </div>
@@ -249,7 +315,6 @@
             </div>
         </div>
     </div>
-
     <!--End pagewrapper-->
 
 
@@ -281,7 +346,9 @@
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/jquery-ui.js"></script>
+    <script src="js/validation.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script src="js/jquery.countdown.js"></script>
     <script type="text/javascript" src="js/theme.js"></script>
     <script src="js/script.js"></script>
 
