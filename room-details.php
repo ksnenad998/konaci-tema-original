@@ -181,7 +181,7 @@
                         <div class="form-area">
                             <div class="form">
                                 <div class="row">
-                                    <form id="reservation-form" name="reservation-form" method="post">
+                                <form id="reservation-form" name="reservation-form" method="post">
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-user"></i>
@@ -204,7 +204,7 @@
                                             <div class="single-input">
                                                 <i class="fa fa-angle-down"></i>
                                                 <select class="custom-select-box" form="reservation-form" name="payment" id="payment">
-                                                <option selected="gotovina">
+                                                <option value="gotovina">
                                                     Način plaćanja
                                                 </option>
                                                 <option value="gotovina">
@@ -214,6 +214,17 @@
                                                     Vaučer
                                                 </option>
                                             </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <i class="fa fa-angle-down"></i>
+                                                <input type="date" name="date" id="date" placeholder="Datum početka"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <input id="days" name="days" type="text" placeholder="Broj dana" required />
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-xs-12">

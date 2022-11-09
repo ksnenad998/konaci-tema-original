@@ -181,7 +181,7 @@
                         <div class="form-area">
                             <div class="form">
                                 <div class="row">
-                                    <form id="reservation-form" name="reservation-form" method="post">
+                                    <form id="voucher-form" name="voucher-form" method="post">
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-user"></i>
@@ -203,7 +203,7 @@
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-angle-down"></i>
-                                                <select class="custom-select-box" form="reservation-form" name="payment" id="payment">
+                                                <select class="custom-select-box" form="voucher-form" name="payment" id="payment">
                                                 </option>
                                                 <option value="vaucer">
                                                     Vaučer
@@ -214,7 +214,18 @@
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-angle-down"></i>
-                                                <select class="custom-select-box" form="reservation-form" name="room" id="room">
+                                                <input type="date" name="date" id="date" placeholder="Datum početka"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <input id="days" name="days" type="text" placeholder="Broj dana" required />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="single-input">
+                                                <i class="fa fa-angle-down"></i>
+                                                <select class="custom-select-box" form="voucher-form" name="room" id="room">
                                                 <option selected="selected">
                                                     Odaberite sobu
                                                 </option>
@@ -351,6 +362,7 @@
     <script src="js/jquery.countdown.js"></script>
     <script type="text/javascript" src="js/theme.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/mail.js"></script>
 
     <!-- End of .page_wrapper -->
 </body>
