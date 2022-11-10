@@ -30,7 +30,7 @@
         <!-- header lower -->
         <div class="clearfix">
             <div class="header-lower-style-two color1_bg">
-                <div class="row">
+                <div>
                     <div class="col-md-3 col-sm-12 col-xs-12 header-sax-logo-container">
                         <a href="index.html" class="logo"><img src="images/logo/logo ristajling.png" alt=""></a>
                     </div>

@@ -3040,6 +3040,7 @@ body {
 
 .room-details .sidber-catagories .single-input {
     position: relative;
+    z-index: 100;
 }
 
 .room-details .sidber-catagories .single-input i {
