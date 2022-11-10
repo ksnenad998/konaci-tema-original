@@ -23,6 +23,7 @@
     }
 }
 
+
 /***
 
 ====================================================================
@@ -37,6 +38,7 @@
     border: none;
     outline: none;
 }
+
 
 /***
 
@@ -212,6 +214,7 @@ h3 a {
     background-image: url(../images/icons/preloader.gif);
 }
 
+
 /** button **/
 
 .btn-one {
@@ -385,6 +388,7 @@ h3 a {
     transition: all 500ms ease;
 }
 
+
 /***
 
 ====================================================================
@@ -425,22 +429,9 @@ h3 a {
     height: 10px;
     width: 90%;
     opacity: 1;
-    background: -webkit-radial-gradient(
-        center,
-        ellipse,
-        rgba(0, 0, 0, 0.25) 0%,
-        rgba(0, 0, 0, 0) 80%
-    );
-    background: -webkit-radial-gradient(
-        center ellipse,
-        rgba(0, 0, 0, 0.25) 0%,
-        rgba(0, 0, 0, 0) 80%
-    );
-    background: radial-gradient(
-        ellipse at center,
-        rgba(0, 0, 0, 0.25) 0%,
-        rgba(0, 0, 0, 0) 80%
-    );
+    background: -webkit-radial-gradient( center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+    background: -webkit-radial-gradient( center ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient( ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
 
 .scroll-to-top:hover {
@@ -453,6 +444,7 @@ body {
     overflow-x: hidden;
 }
 
+
 /***
 
 ====================================================================
@@ -460,6 +452,7 @@ body {
 ====================================================================
 
 ***/
+
 
 /** main header area **/
 
@@ -539,30 +532,30 @@ body {
     margin: 0px;
 }
 
-.main-menu .navigation > li {
+.main-menu .navigation>li {
     position: relative;
     display: inline-block;
     margin-bottom: 0px;
 }
 
-.main-menu .navigation > li.logo-box {
+.main-menu .navigation>li.logo-box {
     margin-right: 0px;
 }
 
-.main-menu .navigation > li.logo-box a {
+.main-menu .navigation>li.logo-box a {
     padding: 0px !important;
 }
 
-.main-menu .navigation > li:last-child {
+.main-menu .navigation>li:last-child {
     margin-right: 0px;
 }
 
-.main-menu .navigation > li > a > i:before {
+.main-menu .navigation>li>a>i:before {
     margin-right: 5px;
     font-size: 16px;
 }
 
-.main-menu .navigation > li > a {
+.main-menu .navigation>li>a {
     position: relative;
     display: block;
     font-size: 19px;
@@ -577,13 +570,14 @@ body {
     -webkit-transition: all 500ms ease;
 }
 
-.sticky-header .main-menu .navigation > li > a {
+.sticky-header .main-menu .navigation>li>a {
     padding: 35px 27px 35px 2px;
 }
 
-.sticky-header .main-menu .navigation > li.current > a:before {
+.sticky-header .main-menu .navigation>li.current>a:before {
     bottom: 35px;
 }
+
 
 /* .main-menu .navigation>li.current>a:before {
     position: absolute;
@@ -596,17 +590,17 @@ body {
     transition: all 500ms ease;
 } */
 
-.main-menu .navigation > li:hover > a {
+.main-menu .navigation>li:hover>a {
     color: #c9a76e;
     background: none;
     transition: all 500ms ease;
 }
 
-.main-menu .navigation > li:hover > a:after {
+.main-menu .navigation>li:hover>a:after {
     opacity: 1;
 }
 
-.main-menu .navigation > li > ul {
+.main-menu .navigation>li>ul {
     position: absolute;
     left: 0px;
     top: 130%;
@@ -624,16 +618,16 @@ body {
     -o-transition: all 1000ms ease;
 }
 
-.main-menu .navigation > li > ul > li {
+.main-menu .navigation>li>ul>li {
     position: relative;
     width: 100%;
 }
 
-.main-menu .navigation > li > ul > li:last-child {
+.main-menu .navigation>li>ul>li:last-child {
     border-bottom: none;
 }
 
-.main-menu .navigation > li > ul > li > a {
+.main-menu .navigation>li>ul>li>a {
     position: relative;
     display: block;
     padding: 10px 15px;
@@ -651,29 +645,29 @@ body {
     -o-transition: all 500ms ease;
 }
 
-.main-menu .navigation > li > ul > li:last-child > a {
+.main-menu .navigation>li>ul>li:last-child>a {
     border-bottom: none;
 }
 
-.main-menu .navigation > li > ul > li:hover > a {
+.main-menu .navigation>li>ul>li:hover>a {
     color: #c9a76e;
     padding: 10px 15px 10px 17px;
     transition: all 500ms ease;
 }
 
-.main-menu .navigation > li > ul > li.dropdown:hover > a:after {
+.main-menu .navigation>li>ul>li.dropdown:hover>a:after {
     color: #ffffff;
     transition: all 500ms ease;
 }
 
-.main-menu .navigation > li.dropdown:hover > ul {
+.main-menu .navigation>li.dropdown:hover>ul {
     visibility: visible;
     opacity: 1;
     top: 100%;
     transition: all 500ms ease;
 }
 
-.main-menu .navbar-collapse > ul li.dropdown .dropdown-btn {
+.main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
     position: absolute;
     right: 10px;
     top: 32px;
@@ -852,6 +846,7 @@ body {
     top: 0px;
 }
 
+
 /** main banner **/
 
 .banner {
@@ -906,6 +901,7 @@ body {
 .banner .style-two {
     margin: 0px 8px;
 }
+
 
 /** callout-section **/
 
@@ -970,6 +966,7 @@ body {
     margin-right: 8px;
 }
 
+
 /** feature-section **/
 
 .feature-section {
@@ -994,6 +991,7 @@ body {
 .feature-section .feature-title {
     margin-bottom: 107px;
 }
+
 
 /** offers-section **/
 
@@ -1067,6 +1065,7 @@ body {
 .offers-section .btn-one {
     padding: 8px 40px;
 }
+
 
 /** rooms-section **/
 
@@ -1244,6 +1243,7 @@ body {
     margin-bottom: 0px;
 }
 
+
 /** subscribe-section **/
 
 .subscribe-section {
@@ -1327,6 +1327,7 @@ body {
     left: 50px;
 }
 
+
 /** img gallery section **/
 
 .img-gallery {
@@ -1404,6 +1405,7 @@ body {
     margin-top: 40px;
     padding: 8px 40px;
 }
+
 
 /** testimonial-event **/
 
@@ -1525,6 +1527,7 @@ body {
     margin-bottom: 5px;
 }
 
+
 /** news section **/
 
 .news-section {
@@ -1633,6 +1636,7 @@ body {
     margin-bottom: 23px;
 }
 
+
 /** sponsors-section **/
 
 .sponsors-section {
@@ -1649,6 +1653,7 @@ body {
 .sponsors-section .owl-theme .owl-controls {
     display: none;
 }
+
 
 /** footer-area **/
 
@@ -1680,6 +1685,7 @@ body {
     color: whitesmoke;
     line-height: 26px;
 }
+
 
 /** footer logo widget **/
 
@@ -1716,6 +1722,7 @@ body {
 .footer-area .logo-widget .footer-social li a:hover {
     color: #c9a76e;
 }
+
 
 /** footer tweets widget **/
 
@@ -1760,6 +1767,7 @@ body {
     border-bottom: none;
 }
 
+
 /** footer contact widget **/
 
 .footer-area .contact-widget {
@@ -1790,6 +1798,7 @@ body {
     color: #a9b4ce;
 }
 
+
 /** footer gallery widget **/
 
 .footer-area .gallery-widget .img-box img {
@@ -1806,6 +1815,7 @@ body {
     padding-right: 5px;
     padding-left: 5px;
 }
+
 
 /** footer-bottom **/
 
@@ -1849,6 +1859,7 @@ body {
 .footer-bottom .footer-bottom-content {
     position: relative;
 }
+
 
 /***
 
@@ -1911,28 +1922,23 @@ body {
     padding: 12px 0px 28px 0px;
 }
 
-.header-style-two .main-menu .navigation > li > a {
+.header-style-two .main-menu .navigation>li>a {
     color: #222;
     padding: 38px 44px;
 }
 
-.header-style-two .sticky-header .main-menu .navigation > li > a {
+.header-style-two .sticky-header .main-menu .navigation>li>a {
     color: #fff;
 }
 
-.header-style-two .main-menu .navigation > li:hover > a,
-.header-style-two .main-menu .navigation > li.current > a,
-.header-style-two
-    .main-menu
-    .navbar-collapse
-    > ul
-    li.dropdown.current
-    .dropdown-btn {
+.header-style-two .main-menu .navigation>li:hover>a,
+.header-style-two .main-menu .navigation>li.current>a,
+.header-style-two .main-menu .navbar-collapse>ul li.dropdown.current .dropdown-btn {
     color: #c9a76e;
     transition: all 500ms ease;
 }
 
-.header-style-two .main-menu .navigation > li.current > a:before {
+.header-style-two .main-menu .navigation>li.current>a:before {
     display: none;
 }
 
@@ -1940,13 +1946,13 @@ body {
     left: 0px;
 }
 
-.header-style-two .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn {
+.header-style-two .main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
     color: #222;
     right: 28px;
     top: 36px;
 }
 
-.header-style-two .sticky-header .main-menu .navigation > li > a {
+.header-style-two .sticky-header .main-menu .navigation>li>a {
     color: #222;
 }
 
@@ -1954,13 +1960,14 @@ body {
     background: #fff;
 }
 
-.header-style-two .sticky-header .main-menu .navigation > li.current > a {
+.header-style-two .sticky-header .main-menu .navigation>li.current>a {
     color: #c9a76e;
 }
 
-.header-style-two .sticky-header .main-menu .navigation > li > a {
+.header-style-two .sticky-header .main-menu .navigation>li>a {
     padding: 38px 44px;
 }
+
 
 /** banner-style-two **/
 
@@ -1977,6 +1984,7 @@ body {
     color: #fff;
     line-height: 30px;
 }
+
 
 /** callout-section-two **/
 
@@ -2012,6 +2020,7 @@ body {
 .callout-section-two .callout-content a.btn-one {
     float: right;
 }
+
 
 /** few-words section **/
 
@@ -2101,6 +2110,7 @@ body {
     right: -25px;
 }
 
+
 /** feature-style-two **/
 
 .feature-style-two {
@@ -2184,6 +2194,7 @@ body {
 .feature-style-two .feature-content .single-item p {
     line-height: 28px;
 }
+
 
 /** summer-secsion **/
 
@@ -2304,6 +2315,7 @@ body {
 .summer-secsion .rooms-title {
     margin-bottom: 127px;
 }
+
 
 /** staffs-section **/
 
@@ -2437,6 +2449,7 @@ body {
     background: #fafafa;
 }
 
+
 /** news-style-two **/
 
 .news-style-two {
@@ -2460,6 +2473,7 @@ body {
     margin-top: 53px;
 }
 
+
 /** sponsors style two **/
 
 .sponsors-style-tow {
@@ -2473,6 +2487,7 @@ body {
 .sponsors-style-tow .sponsors-slider-two {
     padding: 42px 30px;
 }
+
 
 /** footer-style-two **/
 
@@ -2547,6 +2562,7 @@ body {
     color: #c9a76e;
 }
 
+
 /** footer-bottom-style-two **/
 
 .footer-bottom-style-two {
@@ -2588,6 +2604,7 @@ body {
 .footer-bottom-style-two .footer-social-two li a:hover {
     color: #c9a76e;
 }
+
 
 /***
 
@@ -2642,6 +2659,7 @@ body {
 .page-title .bread-crumb a:hover {
     color: #c9a76e;
 }
+
 
 /***
 
@@ -2701,6 +2719,7 @@ body {
     border-radius: 0px;
 }
 
+
 /***
 
 ====================================================================
@@ -2718,6 +2737,7 @@ body {
 .team-page .single-item {
     margin-bottom: 50px;
 }
+
 
 /***
 
@@ -2746,6 +2766,7 @@ body {
 .offers-page .summer-top:last-child {
     margin-bottom: 0px;
 }
+
 
 /***
 
@@ -2797,6 +2818,7 @@ body {
     color: #666;
     margin-bottom: 35px;
 }
+
 
 /***
 
@@ -2874,6 +2896,7 @@ body {
 .rooms-page .link-btn {
     margin-top: 28px;
 }
+
 
 /***
 
@@ -3034,7 +3057,6 @@ body {
     border: 1px solid #ededed;
     border-radius: 5px;
     margin-bottom: 14px;
-    z-index: 1;
 }
 
 .room-details .sidber-catagories {
@@ -3117,6 +3139,7 @@ body {
 .room-details .sidber-catagories .form-area {
     margin-bottom: 68px;
 }
+
 
 /***
 
@@ -3298,6 +3321,7 @@ body {
 .blog-classic .sidber-content .latest-tweets .single-tweets:last-child {
     border-bottom: none;
 }
+
 
 /***
 
@@ -3524,6 +3548,7 @@ body {
     margin-bottom: 62px;
 }
 
+
 /***
 
 ====================================================================
@@ -3532,6 +3557,7 @@ body {
 
 
 ***/
+
 
 /** google map **/
 
@@ -3650,6 +3676,7 @@ p.zanimljivosti {
     display: grid;
 }
 
+
 /** SAXDEV **/
 
 .header-center {
@@ -3693,4 +3720,8 @@ p.zanimljivosti {
 .footer-contact-part {
     display: flex;
     justify-content: center;
+}
+
+.zindex {
+    z-index: 1 !important;
 }

@@ -12,6 +12,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="css/sweetalert.css" rel="stylesheet">
 
 </head>
 
@@ -46,7 +47,7 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class=""><a href="index.html">Početna</a></li>
-                                        <li class="current"><a href="about.html">O nama</a>
+                                        <li class=""><a href="about.html">O nama</a>
                                         </li>
                                         <li class="logo-box">
                                             <a href="index.html" class="logo"><img src="images/logo/logo ristajling.png" alt=""></a>
@@ -80,7 +81,7 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class=""><a href="index.html">Početna</a></li>
-                                        <li class="current"><a href="about.html">O nama</a>
+                                        <li class=""><a href="about.html">O nama</a>
                                         </li>
                                         <li class="logo-box">
                                             <a href="index.html" class="logo"><img src="images/logo/logo ristajling.png" alt=""></a>
@@ -367,6 +368,8 @@
     <script src="js/jquery.countdown.js"></script>
     <script type="text/javascript" src="js/theme.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/sweetalert.js"></script>
+    <script src="js/mail.js"></script>
 
     <!-- End of .page_wrapper -->
 </body>

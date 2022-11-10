@@ -12,6 +12,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="css/sweetalert.css" rel="stylesheet">
 
 </head>
 
@@ -46,7 +47,7 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class=""><a href="index.html">Početna</a></li>
-                                        <li class="current"><a href="about.html">O nama</a>
+                                        <li class=""><a href="about.html">O nama</a>
                                         </li>
                                         <li class="logo-box">
                                             <a href="index.html" class="logo"><img src="images/logo/logo ristajling.png" alt=""></a>
@@ -80,7 +81,7 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class=""><a href="index.html">Početna</a></li>
-                                        <li class="current"><a href="about.html">O nama</a>
+                                        <li class=""><a href="about.html">O nama</a>
                                         </li>
                                         <li class="logo-box">
                                             <a href="index.html" class="logo"><img src="images/logo/logo ristajling.png" alt=""></a>
@@ -185,25 +186,25 @@
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-user"></i>
-                                                <input id="name" name="name" type="text" placeholder="Unesite Vaše ime i prezime" required />
+                                                <input id="name" class="zindex" name="name" type="text" placeholder="Unesite Vaše ime i prezime" required />
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-phone"></i>
-                                                <input id="phone" name="phone" type="text" placeholder="Unesite Vaš broj telefona" required />
+                                                <input id="phone" class="zindex" name="phone" type="text" placeholder="Unesite Vaš broj telefona" required />
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-envelope"></i>
-                                                <input id="email" name="email" type="email" placeholder="Unesite Vaš email" />
+                                                <input id="email" class="zindex" name="email" type="email" placeholder="Unesite Vaš email" />
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-angle-down"></i>
-                                                <select class="custom-select-box" form="voucher-form" name="payment" id="payment">
+                                                <select class="custom-select-box zindex" form="voucher-form" name="payment" id="payment">
                                                 </option>
                                                 <option value="vaucer">
                                                     Vaučer
@@ -214,18 +215,18 @@
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-angle-down"></i>
-                                                <input type="date" name="date" id="date" placeholder="Datum početka"/>
+                                                <input type="date" class="zindex" name="date" id="date" placeholder="Datum početka"/>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
-                                                <input id="days" name="days" type="text" placeholder="Broj dana" required />
+                                                <input id="days" class="zindex" name="days" type="text" placeholder="Broj dana" required />
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <div class="single-input">
                                                 <i class="fa fa-angle-down"></i>
-                                                <select class="custom-select-box" form="voucher-form" name="room" id="room">
+                                                <select class="custom-select-box zindex" form="voucher-form" name="room" id="room">
                                                 <option selected="selected">
                                                     Odaberite sobu
                                                 </option>
@@ -245,7 +246,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <button class="btn-one style-one" type="submit">Rezervišite</button>
+                                            <button class="btn-one style-one zindex" type="submit">Rezervišite</button>
                                         </div>
                                     </form>
                                 </div>
@@ -362,6 +363,7 @@
     <script src="js/jquery.countdown.js"></script>
     <script type="text/javascript" src="js/theme.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/sweetalert.js"></script>
     <script src="js/mail.js"></script>
 
     <!-- End of .page_wrapper -->

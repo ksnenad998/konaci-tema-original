@@ -79,8 +79,8 @@ $(document).ready(function() {
     const $registerForm1 = $('#reservation-form');
     //let validator = void(0)
 
-    if ($registerForm.length) {
-        validator = $registerForm.validate({
+    if ($registerForm1.length) {
+        validator = $registerForm1.validate({
             rules: {
                 name: {
                     required: true,
@@ -149,7 +149,7 @@ $(document).ready(function() {
                                     type: 'success',
                                 },
                                 function(isConfirm) {
-                                    $(location).attr('href', 'index.html');
+                                    // $(location).attr('href', 'index.html');
                                 },
                             );
                         }

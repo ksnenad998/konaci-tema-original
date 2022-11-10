@@ -21,7 +21,7 @@ $user_class = new USER();
         ///if ($recaptcha->score >= 0.5) {
             if (isset($_REQUEST['name']) && isset($_REQUEST['phone']) && isset($_REQUEST['days']) && isset($_REQUEST['payment'])) {
 
-                $email_to = "vaucer@ribarskikonaci.com";
+                $email_to = "vauceri@ribarskikonaci.com";
                 $email_subject = "Rezervacija";
 
 
@@ -32,6 +32,7 @@ $user_class = new USER();
                 $date   = $_POST['date'];
                 $days    = $_POST['days'];
                 $room    = $_POST['room'];
+
 
                 function clean_string($string)
                 {
