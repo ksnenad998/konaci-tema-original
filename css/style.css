@@ -3710,6 +3710,10 @@ p.zanimljivosti {
         justify-content: center;
         padding: 20px;
     }
+    .contact-section .contact-form-area {
+        position: relative;
+        padding-left: 0;
+    }
 }
 
 .figure-position {
