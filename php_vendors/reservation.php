@@ -21,7 +21,7 @@ $user_class = new USER();
         ///if ($recaptcha->score >= 0.5) {
             if (isset($_REQUEST['name']) && isset($_REQUEST['phone']) && isset($_REQUEST['days']) && isset($_REQUEST['payment'])) {
 
-                $email_to = "vauceri@ribarskikonaci.com";
+                $email_to = "info@ribarskikonaci.com";
                 $email_subject = "Rezervacija";
 
 
