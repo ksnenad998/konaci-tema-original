@@ -213,7 +213,7 @@
 
 		merge: false,
 		mergeFit: true,
-		autoWidth: false,
+		autoWidth: true,
 
 		startPosition: 0,
 		rtl: false,
